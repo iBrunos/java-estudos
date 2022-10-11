@@ -14,5 +14,7 @@ public class CriaConta {
         System.out.println("primeira conta tem " + primeiraConta.saldo);
         System.out.println("segunda conta tem " + segundaConta.saldo);
 
+        System.out.println("referenciar: " + primeiraConta);
     }
+
 }
