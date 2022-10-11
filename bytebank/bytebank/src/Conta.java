@@ -1,10 +1,8 @@
 public class Conta {
-    public static void main(String[] args) {
-        
-        class Conta {
-            double salto;
-            int agencia;
-            int numero;
-            String titular; 
-        }
-}
+    
+    double saldo;
+    int agencia = 42;
+    int numero;
+    String titular;  
+
+    }
