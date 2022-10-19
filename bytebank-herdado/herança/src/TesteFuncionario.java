@@ -5,5 +5,9 @@ public class TesteFuncionario {
         nico.setNome("Bruno Seixas");
         nico.setCpf("223355646-9");
         nico.setSalario(2600.00);
+
+
+        System.out.println(nico.getNome());
+        System.out.println(nico.getBonificacao());
     }
 }
