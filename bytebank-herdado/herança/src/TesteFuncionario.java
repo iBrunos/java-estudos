@@ -1,13 +1,16 @@
 public class TesteFuncionario {
-    public static void main(String[] args) throws Exception {
-        
-        Funcionario nico = new Funcionario();
-        nico.setNome("Bruno Seixas");
-        nico.setCpf("223355646-9");
-        nico.setSalario(2600.00);
 
+	public static void main(String[] args) {
 
-        System.out.println(nico.getNome());
-        System.out.println(nico.getBonificacao());
-    }
+		Funcionario nico = new Funcionario();
+
+		nico.setNome("Nico Steppat");
+		nico.setCpf("223355646-9");
+		nico.setSalario(2590.80);
+
+		System.out.println(nico.getNome());
+		System.out.println(nico.getBonificacao());
+
+	}
+
 }
